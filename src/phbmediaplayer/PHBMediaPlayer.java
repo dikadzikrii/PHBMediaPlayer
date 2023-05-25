@@ -13,6 +13,7 @@ import javafx.stage.Stage;
  * @author User
  */
 public class PHBMediaPlayer {
+    @Override
     public void start(Stage stage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("FMXLDocument.fxml"));
         Scene scene = new Scene(root);
